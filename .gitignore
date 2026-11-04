@@ -1,0 +1,57 @@
+# Local credentials and environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Maven / Java build output
+target/
+*.class
+*.jar
+*.war
+*.ear
+!.mvn/wrapper/maven-wrapper.jar
+
+# Generated test reports, previews and workbook tooling
+/outputs/
+coverage/
+*.log
+hs_err_pid*
+replay_pid*
+
+# Dependencies and Python caches
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local IDE and agent state
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.codex/
+.agents/
+.aws/
+.github/modernize/
+
+# OS and editor temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo

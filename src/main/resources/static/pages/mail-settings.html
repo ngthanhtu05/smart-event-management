@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cấu hình email · SEMS</title>
+    <link rel="stylesheet" href="/css/theme.css" />
+  </head>
+  <body class="app-page">
+    <header aria-label="Điều hướng"></header>
+    <main>
+      <section class="hero">
+        <h1>Cấu hình email</h1>
+        <p>Quản lý thư gửi vé, xác minh email và đặt lại mật khẩu.</p>
+      </section>
+      <div id="status" class="status"></div>
+      <div class="two">
+        <section class="card">
+          <h2>Máy chủ SMTP</h2>
+          <p class="muted">Với Gmail, dùng máy chủ smtp.gmail.com, cổng 587 và mật khẩu ứng dụng.</p>
+          <form id="settings-form">
+            <label class="mail-check"><input id="mail-enabled" type="checkbox" /> Bật gửi email</label>
+            <label for="mail-host">Máy chủ</label>
+            <input id="mail-host" maxlength="255" placeholder="smtp.gmail.com" required />
+            <label for="mail-port">Cổng</label>
+            <input id="mail-port" type="number" min="1" max="65535" value="587" required />
+            <label for="mail-user">Tài khoản SMTP</label>
+            <input id="mail-user" type="email" autocomplete="username" maxlength="190" placeholder="ten@gmail.com" required />
+            <label for="mail-from">Địa chỉ người gửi</label>
+            <input id="mail-from" type="email" maxlength="190" placeholder="ten@gmail.com" required />
+            <label for="mail-password">Mật khẩu ứng dụng</label>
+            <input id="mail-password" type="password" autocomplete="off" maxlength="256" />
+            <div class="actions"><button class="btn" type="submit">Lưu cấu hình</button></div>
+          </form>
+        </section>
+        <section class="card">
+          <h2>Kiểm tra gửi thư</h2>
+          <p class="muted">Lưu và bật cấu hình trước khi gửi email thử. Hãy kiểm tra cả thư rác nếu không thấy thư đến.</p>
+          <form id="test-form">
+            <label for="test-address">Email nhận thử</label>
+            <input id="test-address" type="email" maxlength="190" required />
+            <div class="actions"><button class="btn secondary" type="submit">Gửi email thử</button></div>
+          </form>
+          <p class="small muted">Email tài khoản người dùng cần được xác minh trước khi sử dụng chức năng quên mật khẩu. Tài khoản mẫu có thể thêm email trong trang Tài khoản.</p>
+        </section>
+      </div>
+    </main>
+    <script type="module" src="/js/mail-settings.js"></script>
+  </body>
+</html>

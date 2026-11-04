@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" role="img" aria-labelledby="title">
+  <title id="title">Hội thảo và học tập</title>
+  <defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#153047"/><stop offset="1" stop-color="#266a84"/></linearGradient></defs>
+  <rect width="1200" height="480" fill="url(#g)"/>
+  <circle cx="1025" cy="70" r="245" fill="#70d6c6" opacity=".12"/>
+  <path d="M820 139c80-48 165-48 245 0v218c-80-48-165-48-245 0zm0 0c-80-48-165-48-245 0v218c80-48 165-48 245 0z" fill="none" stroke="#b9fff0" stroke-width="9" opacity=".72"/>
+  <path d="M820 139v218M610 181c60-25 118-23 174 4M610 229c60-25 118-23 174 4M855 185c56-27 114-29 174-4M855 233c56-27 114-29 174-4" stroke="#b9fff0" stroke-width="4" opacity=".5" fill="none"/>
+  <text x="80" y="164" fill="#a5eddf" font-family="Arial,sans-serif" font-size="26" font-weight="700" letter-spacing="5">SEMS / LEARNING</text>
+  <text x="78" y="255" fill="white" font-family="Arial,sans-serif" font-size="66" font-weight="800">Học hỏi &amp;</text>
+  <text x="78" y="332" fill="white" font-family="Arial,sans-serif" font-size="66" font-weight="800">Kết nối</text>
+  <rect x="80" y="375" width="240" height="5" rx="2" fill="#74d9ca"/>
+</svg>

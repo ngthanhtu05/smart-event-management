@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" role="img" aria-labelledby="title">
+  <title id="title">Cộng đồng và dự án</title>
+  <defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#13253b"/><stop offset="1" stop-color="#235d62"/></linearGradient></defs>
+  <rect width="1200" height="480" fill="url(#g)"/>
+  <circle cx="935" cy="220" r="205" fill="#60d6b9" opacity=".13"/>
+  <g stroke="#b6f9df" stroke-width="4" fill="none" opacity=".65"><path d="M810 144l120-70 120 70v140l-120 70-120-70zM810 144l120 70 120-70M930 214v140"/><circle cx="810" cy="144" r="15" fill="#b6f9df"/><circle cx="930" cy="74" r="15" fill="#b6f9df"/><circle cx="1050" cy="144" r="15" fill="#b6f9df"/><circle cx="810" cy="284" r="15" fill="#b6f9df"/><circle cx="930" cy="354" r="15" fill="#b6f9df"/><circle cx="1050" cy="284" r="15" fill="#b6f9df"/></g>
+  <text x="80" y="164" fill="#a5e9d2" font-family="Arial,sans-serif" font-size="26" font-weight="700" letter-spacing="5">SEMS / COMMUNITY</text>
+  <text x="78" y="255" fill="white" font-family="Arial,sans-serif" font-size="66" font-weight="800">Ý tưởng &amp;</text>
+  <text x="78" y="332" fill="white" font-family="Arial,sans-serif" font-size="66" font-weight="800">Cộng đồng</text>
+  <rect x="80" y="375" width="240" height="5" rx="2" fill="#64d7b9"/>
+</svg>

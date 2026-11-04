@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" role="img" aria-labelledby="title">
+  <title id="title">Công nghệ và khởi nghiệp</title>
+  <defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#111b33"/><stop offset="1" stop-color="#54356f"/></linearGradient></defs>
+  <rect width="1200" height="480" fill="url(#g)"/>
+  <circle cx="970" cy="170" r="200" fill="#ef4565" opacity=".18"/>
+  <circle cx="1010" cy="205" r="136" fill="none" stroke="#f7a8bc" stroke-width="2" opacity=".45"/>
+  <circle cx="1010" cy="205" r="76" fill="none" stroke="#f7a8bc" stroke-width="2" opacity=".65"/>
+  <path d="M750 110h100v70h95m-195 170h95v-70h115m-160-95h140m-90 55h220" fill="none" stroke="#ee8ca4" stroke-width="3" opacity=".6"/>
+  <g fill="#f5a7bb"><circle cx="750" cy="110" r="7"/><circle cx="945" cy="180" r="7"/><circle cx="960" cy="280" r="7"/><circle cx="1070" cy="240" r="7"/></g>
+  <text x="80" y="164" fill="#f5a7bb" font-family="Arial,sans-serif" font-size="26" font-weight="700" letter-spacing="5">SEMS / TECHNOLOGY</text>
+  <text x="78" y="255" fill="white" font-family="Arial,sans-serif" font-size="66" font-weight="800">Công nghệ &amp;</text>
+  <text x="78" y="332" fill="white" font-family="Arial,sans-serif" font-size="66" font-weight="800">Khởi nghiệp</text>
+  <rect x="80" y="375" width="240" height="5" rx="2" fill="#ec4567"/>
+</svg>
