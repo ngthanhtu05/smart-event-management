@@ -148,15 +148,16 @@ class AccountRecoveryIntegrationTest {
     String requestId = json.readTree(response).get("requestId").asText();
     assertThat(users.findByUsernameIgnoreCase("visitor").orElseThrow().getEmail())
         .isEqualTo(oldAddress);
+    ArgumentCaptor<String> code = ArgumentCaptor.forClass(String.class);
+    verify(mail).sendConfirmationCode(eq(newAddress), code.capture());
+    String wrongCode = code.getValue().equals("000000") ? "000001" : "000000";
     mvc.perform(post("/api/v1/account/confirm-email-change").session(session).with(csrf())
         .contentType("application/json")
         .content(json.writeValueAsBytes(java.util.Map.of(
-            "requestId", requestId, "code", "000000"))))
+            "requestId", requestId, "code", wrongCode))))
         .andExpect(status().isBadRequest());
     assertThat(users.findByUsernameIgnoreCase("visitor").orElseThrow().getEmail())
         .isEqualTo(oldAddress);
-    ArgumentCaptor<String> code = ArgumentCaptor.forClass(String.class);
-    verify(mail).sendConfirmationCode(eq(newAddress), code.capture());
     mvc.perform(post("/api/v1/account/confirm-email-change").session(session).with(csrf())
         .contentType("application/json")
         .content(json.writeValueAsBytes(java.util.Map.of(
